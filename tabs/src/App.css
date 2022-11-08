@@ -1,0 +1,113 @@
+h1{
+  text-align: center;
+}
+
+h2{
+  padding-top: .5em;
+}
+
+h4{
+  padding-left: 1em;
+}
+
+.name{
+  background-color: rgb(204, 204, 204);
+  margin-right: 90%;
+  border-radius: .3em;
+}
+
+.underline{
+  padding-top: .1em;
+  padding-bottom: .1em;
+  margin-left: 5.9in;
+  margin-right: 5.9in;
+  background-color: cyan;
+}
+
+.navButton {
+  list-style-type: none;
+  padding-left: .4in;
+}
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 85%;
+}
+
+.navDesc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  align-self: flex-start;
+  height: 25%;
+  width: 25%;
+}
+
+nav ul {
+  padding-left: 15;
+}
+
+nav ul li {
+  padding: 0.3em;
+}
+
+nav ul li button {
+  padding: 0.3em 1.5em;
+  margin-left: 1em;
+  width: 8em;
+  border-color: transparent;
+  background-color: transparent;
+  font-size: 18px;
+  
+}
+
+nav ul li button:hover {
+  border-left-color: cyan;
+  color: cyan;
+}
+
+nav ul li button:active {
+  border-left-color: cyan;
+  color: cyan;
+}
+
+.profile {
+  margin-left: 2em;
+}
+
+.profile h2 {
+  font-weight: lighter;
+}
+
+.profile h3 {
+  background-color: rgba(182, 182, 182, 0.3);
+  width: 10%;
+  padding-left: 1em;
+}
+
+.description {
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.moreInfo {
+  align-self: center;
+  width: 15%;
+  padding: 0.5em;
+  border-radius: 0.4em;
+  font-weight: bolder;
+  background-color: rgb(0, 152, 152);
+  border-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.moreInfo:hover {
+  background-color: rgba(0, 215, 215, 0.3);
+  color: black;
+}
